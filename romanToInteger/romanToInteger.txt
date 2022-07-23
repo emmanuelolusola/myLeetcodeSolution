@@ -1,0 +1,13 @@
+- Create an object that takes in I, V, X, L, C, D, M as keys
+  and 1, 5, 10, 50, 100, 500, 1000 as values respectively.
+
+- Create a result of integer => initialized to 0.
+
+- Split string for each letter and its index
+    - if value of letter at current index is less than value of the letter in the next index
+        - subtract current from next
+
+    - if value of letter at current index is greater than/ equal to the value of the letter in next index
+        - add current to next
+
+- Return result
