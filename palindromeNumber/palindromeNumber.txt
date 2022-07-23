@@ -1,0 +1,20 @@
+- if number is negative, it's false => can never be palindrome
+    example: -123 is 321- , -11 is 11-, -121 is 121-
+
+- create a new variable that takes the reverse of the number
+- reverse through iteration:
+    - val is the initial number
+    - val is greater than or equal to 1
+    - last number of the val is being removed through iteration
+
+        - set reverse to be previous reverse * 10 plus new val after iteration
+            example:
+            number => 123
+            val = 123, next iteration (val = 12)
+            reverse = 3
+            new val = 12, next iteration (val = 1)
+            reverse = (3 * 10) + 2 = 32
+            new val = 1 ===> last iteration
+            reverse = (32 * 10) + 1 = 321 ====> REVERSE 
+
+- Truthy if reverse is equal to initial number 
