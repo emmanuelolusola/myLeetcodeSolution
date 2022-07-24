@@ -8,6 +8,7 @@ function twoSum(nums, target) {
     if (map.has(numTwo)) return [i, map.get(numTwo)];
     map.set(numOne, i);
   }
+  return null;
 }
 
 // TESTCASES
