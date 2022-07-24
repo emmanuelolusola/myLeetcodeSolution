@@ -1,0 +1,22 @@
+Using vertical method,
+    we check through all the strings in the array,
+    we record the longest substrings that match substrings of other strings at the same index
+    
+    example:
+                |A|-|P|-P-L-Y
+                |A|-|P|-P-L-E
+                |A|-|P|-E
+                |A|-I-D
+                 ======> since I (str[3][1]) is not the same as P (str[2][1])
+                    break out of the loop ==> ignore the rest of the operation
+                    Return A as the longest common prefix.
+
+
+PSEUDOCODE
+- if the strings are empty, record NO COMMON PREFIX ==> Edge case
+- loop through the characters of the strings (char, index)
+    - loop through the strings in the array
+        - if string[index] != char
+            - return the prefix
+    - add character to prefix
+- return prefix
