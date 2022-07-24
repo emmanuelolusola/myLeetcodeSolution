@@ -1,0 +1,19 @@
+Using two pointer;
+    - given an array of numbers, and a target number
+    - if two numbers in the array sum up to the index
+        - return the indices of the two numbers
+
+    ==> Approach
+        - create a new array map that takes in the index of the two numbers
+        - iterate through the array of numbers
+            - create a new variable that takes the number in the array (from the start)
+                - i.e a = nums[i]
+            -  create another variable that takes the subtraction of "a" from the target number
+                - i.e b = target - a
+
+            - if the array contains "b"
+                - get its index 
+
+            add the index of a and b to the array map
+
+            
