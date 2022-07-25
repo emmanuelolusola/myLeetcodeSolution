@@ -1,0 +1,10 @@
+- create a counter inititalized to 0, that hold the elements of unique numbers
+- iterate through the array of numbers
+    - add first number to "counter" array, the move to the next number
+    - if current number is equal to previous number
+        - skip and proceed to the next number
+    - if current number is not equal to previous number
+        - add current number to "counter" array
+        - proceed to the next number for further operation 
+
+- return "counter" array at the end of all operations 
