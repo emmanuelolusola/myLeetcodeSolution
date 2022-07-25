@@ -3,10 +3,10 @@
     - then remove the target number
 
 - because we are removing from the array,
-    looping forward will have use decrement the index of the next array for another operation
+    looping forward will have us decrement the index of the next array for another operation
         ===> because the length of the array reduces after removing an element.
 
-- best way to ietrate and remove element without having to decrement index of next operation is:
+- best way to iterate and remove element without having to decrement index of next operation is:
     - loop backward ===> indices of all elements of the array remain unchanged.
 
 - Then we return the length of the array after removing target elements 
