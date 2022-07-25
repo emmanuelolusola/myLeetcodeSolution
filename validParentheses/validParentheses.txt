@@ -1,0 +1,12 @@
+- Create a map that holds '(', '{', '[' as keys and ']', '}', ')' as values
+- create an empty array
+- iterate through the param (string)
+    - if character is an open bracket (key)
+        - add it to the empty array
+    - if next character is a corresponding closing bracket (value)
+        - remove prev from the array, leaving it empty again for next operation ===> TRUTHY
+    - if first character is not open bracket, or the next is not a corresponding closing bracket
+        - return false 
+
+- if all conditions are met leaving the array empty after all operations
+    - return true 
