@@ -1,0 +1,8 @@
+- We check the edge cases and return 0
+    ===> needle is an empty string OR needle is the same as haystack
+
+- Iterate through the length of haystack minus length of needle
+    - if needle is a substring of haystack 
+        - return the start index
+    - if needle is not a substring of haystack
+        - return -1
