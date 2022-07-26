@@ -1,0 +1,17 @@
+ - Solving this problem using binary search ==> [O(logN)]
+    - start the search from the middle by dividing length of array into two
+        - if the number is greater than the target number:
+            - ignore the lesser elements of the array
+                - set mid as new beginning
+                - create a new middle value
+        - if the number is less than the target number:
+            - ignore the greater elements of the array
+                - set mid as new end
+                - create a new middle value 
+        - if the number is equal to target number:
+            - return its index
+
+        - if target number is not in the array:
+            - add it to the array next to the closest small element to it
+                - i.e [1, 2, 4, 5], target = 3 ===> [1, 2, 3, 4, 5]
+                - return its index
