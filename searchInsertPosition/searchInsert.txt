@@ -14,4 +14,4 @@
         - if target number is not in the array:
             - add it to the array next to the closest small element to it
                 - i.e [1, 2, 4, 5], target = 3 ===> [1, 2, 3, 4, 5]
-                - return its index
+            - return its index
