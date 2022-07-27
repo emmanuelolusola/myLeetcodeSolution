@@ -1,0 +1,22 @@
+example ==> [1, 2, 3, 4]
+    - result ===> [1, 2, 3, 5]
+        - from the array, the number is 1234
+        - adding one to it makes is 1235
+
+- because we are adding to the last number of the array;
+    - we loop backward, starting our first value from the last element of the array
+    - we add one to the last element
+
+
+===> but there is a condition
+    - if the last element of the array is 9;
+        - we won't have 10 as the last element, because it does not sum up the elements of the array
+            - i.e plusOne([4, 3, 2, 9]) != [4, 3, 2, 10]
+            - it is [4, 3, 3, 0], because 4329 + 1 = 4330
+
+    - in this case;
+        - if last number of the array is 10 after adding 1;
+            - initialize the last element to be 0
+            - and add 1 to the next element to the left (through iteration done above)
+
+        - then return the result
