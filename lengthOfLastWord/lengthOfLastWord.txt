@@ -1,0 +1,13 @@
+"This is Emmanuel Olusola"
+
+--------------------------------------------------
+- Fastest way to get the length of last word:
+    - remove the whitespaces;
+        - "ThisisEmmanuelOlusola"
+    - separate the words in the string;
+        - "This" "is" "Emmanuel" "Olusola"
+    - get the last string from the array;
+        - "Olusola"
+    - return the length;
+        - 7
+--------------------------------------------------
