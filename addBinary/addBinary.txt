@@ -1,0 +1,20 @@
+- Inside function,
+    - we need two variable,
+    - one is sum and other is carry.
+    ====> Sum variable will be return as output.
+
+    - Assign empty string to Sum variable.
+    - Assign zero to Carry variable.
+- To add numbers we need to run loop
+    - use while loop it run till a or b and carry is not empty.
+    - After every iteration, we will remove last element from input a and b.
+
+
+- Inside while loop,
+    - we need to add last digits of a and b, and store it in variable add.
+        - If add is greater than 1
+            - 0 is added to the sum
+            - reassign Carry with 1.
+        - In else case we just need to add value of Carry, and reassign Carry with zero
+
+===> Need to remove last digit from inputs a and b, if not remove while loop will run infinate times.
