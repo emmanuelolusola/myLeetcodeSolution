@@ -1,0 +1,15 @@
+====> Breaking down problem
+    considering we can take 1 step or 2 steps throught the stairs to reach end of stairs
+            POSSIBILITIES
+        stairs      |       steps
+           1        |         1
+           2        |         2
+           3        |         3
+           4        |         5
+           5        |         8
+           6        |         13
+
+===> From the table above,
+    - the steps taken at a stair[3] = sum of steps taken at stair[2] and stair[1]
+    - the steps taken at a stair[6] = sum of steps taken at stair[5] and stair[4]
+        - therefore steps taken at a stair[current] = sum of steps taken at stair[current - 1] and stair[current - 2]
