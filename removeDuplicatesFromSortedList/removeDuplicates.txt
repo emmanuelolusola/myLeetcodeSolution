@@ -1,0 +1,13 @@
+===> from a sorted list;
+        [1, 2, 2, 3, 4, 4, 4, 5, 6] ===> [1, 2, 3, 4, 5, 6]
+
+    - to do this, create a dummy node(pevious) & current node attached to the head 
+        - if the current node value is equal to the next node value
+            - increment current node to the next index
+        - if current node value is not equalt to the next node value
+            - change the previous node to the current node, and increment current node to next index 
+
+        - the return the head ==> all unique nodes stored
+
+====> Time complexity - O(N)
+====> Space complexity - O(1)
